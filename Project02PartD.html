@@ -1,0 +1,26 @@
+<!doctype html>
+<!-- Jeffrey Martin
+	 CIS 193
+	 Project 2 Part D
+	 
+	 This file gets the users input of the Year and then posts it to Project02PartD.php
+	 for calculation and output. -->
+<html>
+<head>
+<meta charset="utf-8">
+<title>Leap Year Calculator</title>
+</head>
+
+<body>
+	<form method="post" action = "Project02PartD.php">
+	
+		<h1>Is the Year a Leap Year?</h1>
+		
+		<!-- Data is required to be input and as a positive number with up to two desimal places. -->
+		Year: <input type="number" id="year" required min="0" name="year"><br>
+
+		<input type="submit"  value="Calculate">
+		<input type="reset">
+	</form>
+</body>
+</html>

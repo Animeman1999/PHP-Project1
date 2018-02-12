@@ -1,0 +1,27 @@
+<!doctype html>
+<!-- Jeffrey Martin
+	 CIS 193
+	 Project 2 Part B 
+	 
+	 This file gets the users input of wage and hours and then posts it to Project02PartB
+	 for calculation and output. -->
+<html>
+<head>
+<meta charset="utf-8">
+<title>Project02PartB</title>
+</head>
+
+<body>
+<form method="post" action = "Project02PartB.php">
+
+	<h1>Employee's Gross Wages Calculator</h1>
+	
+	<!-- All data is required to be input and as a positive numbers with up to two desimal places -->
+	Hourly Wage: <input type="number" step="0.01" required min="0" id="wage" name="wage"><br>
+	Hours Worked: <input type="number" step="0.01" required min="0" id="hours" name="hours"><br>
+	
+	<input type="submit" value="Calculate">
+	<input type="reset">
+</form>
+</body>
+</html>

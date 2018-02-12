@@ -1,0 +1,28 @@
+<!doctype html>
+<!-- Jeffrey Martin
+	 CIS 193
+	 Project 2 Part E
+	 
+	 This file gets the users input of three sides of a Triangle and then posts it to Project02PartE.php
+	 for calculation and output. -->
+<html>
+<head>
+<meta charset="utf-8">
+<title>Triangle Calculator</title>
+</head>
+
+<body>
+<form method="post" action = "Project02PartE.php">
+
+	<h1>Do three sides form a Triangle?</h1>
+	
+	<!-- Data is required to be input and as a positive number with up to two desimal places. -->
+	Length of side 1: <input type="number" step="0.01" required min="0" id="side1" name="side1"><br>
+	Length of side 2: <input type="number" step="0.01" required min="0" id="side2" name="side2"><br>
+	Length of side 3: <input type="number" step="0.01" required min="0" id="side3" name="side3"><br>
+	
+	<input type="submit" value="Calculate">
+	<input type="reset">
+</form>
+</body>
+</html>

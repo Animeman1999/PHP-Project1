@@ -1,0 +1,26 @@
+<!doctype html>
+<!-- Jeffrey Martin
+	 CIS 193
+	 Project 2 Part C
+	 
+	 This file gets the users input of the number of pennies and then posts it to Project02PartC.php
+	 for calculation and output. -->
+<html>
+<head>
+<meta charset="utf-8">
+<title>Pennies Convertor</title>
+</head>
+
+<body>
+	<form method="post" action = "Project02PartC.php">
+	
+		<h1>Convert pennies into dollars, quarters, dimes, nickels, and pennies.</h1>
+		
+		<!-- Data is required to be input and as a positive number with up to two desimal places. -->
+		Pennies: <input type="number" required min="0" id="pennies" name="pennies"><br>
+
+		<input type="submit" value="Convert">
+		<input type="reset">
+	</form>
+</body>
+</html>
